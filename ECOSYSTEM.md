@@ -8,7 +8,7 @@
 
 ## Overview
 
-**Sentrix** is a physical-data pipeline that turns visuotactile glove
+**SentrixEcosystem** is a physical-data pipeline that turns motion
 demonstrations into searchable, premium, ML-ready datasets for robotics and
 physical-AI teams (VLA, dexterous manipulation, world/reward models). It grounds
 the physical signal — contact, force, timing, confidence — losslessly and
@@ -26,9 +26,6 @@ implemented and verified; firmware is real with on-silicon bring-up pending.
 Autolabeling and the transactional catalog are not built.
 
 ## Repository Map
-
-Six repositories under `D:\New_Direction\Glove_Architecture`, plus an
-orchestrator and integration tests at the root.
 
 | Repo | Version | Role | One-line |
 |---|---|---|---|
@@ -125,6 +122,7 @@ The single-command form of steps 1–6 is **ORCH-1** (see WORKFLOWS.md).
 ## Current Dataset Release
 
 **SentrixTactileMotionDataset v0.3** — `SentrixSim/SentrixDataset_v0.3_FINAL/`.
+https://drive.google.com/drive/folders/1jah21e-l8auIvuoOENOcJzRzc4gdTCRG?usp=sharing
 
 A *hardware-aligned synthetic* dataset of synchronized tactile + motion sensing
 for robotic / XR manipulation. Reproducibility id `sha256:392c8627ae88…83a5`
